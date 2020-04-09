@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="java.js"></script>
+
+</head>
+<body>
+<div id="Options">Number of mines:
+    <input type="number" name="nbMines" value="10">Columns:
+    <input type="number" name="columns" value="12">&nbsp;Lines:
+    <input type="number" name="lines" value="12">
+</div>
+<div id="Demineur">
+    <div id="scoreboard">Mines:
+        <div id="score-bomb-count" class="panel left">010</div>&nbsp;&nbsp;Time:
+        <div id="score-time-count" class="panel right">000</div>
+    </div>
+    <div id='Mines'></div>
+</div>
+<br>
+<button onclick="init()">Restart</button>
+
+
+</body>
+</html>
